@@ -1,0 +1,21 @@
+{
+  "name": "get-primes",
+  "version": "1.0.0",
+  "description": "A prime number function to get primes from 1 to n where n is the argument supplied",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "Mocha",
+    "chai",
+    "node.js",
+    "es6"
+  ],
+  "author": "Raphael Etim",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}

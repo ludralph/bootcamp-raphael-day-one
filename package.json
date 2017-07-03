@@ -4,7 +4,7 @@
   "description": "A prime number function to get primes from 1 to n where n is the argument supplied",
   "main": "app.js",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "mocha --require babel-polyfill --compilers js:babel-register"
   },
   "keywords": [
     "Mocha",
@@ -17,5 +17,10 @@
   "dependencies": {
     "chai": "^4.0.2",
     "mocha": "^3.4.2"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-register": "^6.24.1"
   }
 }
